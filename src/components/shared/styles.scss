@@ -1,0 +1,32 @@
+$debug: false;
+
+
+
+.container-separator svg {
+    margin-right: 20px;
+	align-self: center;
+	width: 100px;
+	height: 100px;
+	@if $debug == true {
+		outline: 1px dashed rgba(255, 255, 255, 0.3);
+	}
+}
+.container-separator path {
+	stroke: #15CCA2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: none;
+}
+.container-separator #glow feDropShadow {
+	flood-color: #b7daff;
+}
+.container-separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.container-separator h2{
+    margin-right: 20px;
+}
