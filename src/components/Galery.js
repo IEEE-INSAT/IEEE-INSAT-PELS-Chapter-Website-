@@ -36,7 +36,7 @@ export default class Galery extends Component {
               centeredSlidesBounds={true}
               loop={true}
               
-              initialSlide={0}
+              initialSlide={1}
               slidesPerView={"auto"}
               coverflowEffect={{
                 rotate: 0,
@@ -55,6 +55,21 @@ export default class Galery extends Component {
               
               className="swiper_container"
             >
+             
+              <SwiperSlide className="swiper-slide">
+              {({ isActive }) => (
+              <div className={isActive ? 'main-content' : 'main-content notactive'}>
+              <img src={slide_image_2} alt="slide_image" />
+              <span className="category">Vice Chair Membership</span>
+              <h4>Wissem Malleh</h4>
+              <ul className="social-icons">
+                <li><a href="facebook.com/wissem.malleh"><i className="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/wissemmalleh/"><i className="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/malleh-wissem-6798011a5/"><i className="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+             )}
+              </SwiperSlide>
               <SwiperSlide className="swiper-slide" >
               {({ isActive }) => (
       
@@ -70,20 +85,6 @@ export default class Galery extends Component {
               </ul>
             </div>
             )}
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-              {({ isActive }) => (
-              <div className={isActive ? 'main-content' : 'main-content notactive'}>
-              <img src={slide_image_2} alt="slide_image" />
-              <span className="category">Vice Chair Membership</span>
-              <h4>Wissem Malleh</h4>
-              <ul className="social-icons">
-                <li><a href="facebook.com/wissem.malleh"><i className="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/wissemmalleh/"><i className="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/malleh-wissem-6798011a5/"><i className="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-             )}
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 {({ isActive }) => (
