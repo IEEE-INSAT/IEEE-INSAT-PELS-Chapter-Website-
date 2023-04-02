@@ -1,4 +1,4 @@
-name: Deploying PELS's website !
+name: Deploying PELS' website !
 
 on:
   push:
@@ -22,9 +22,9 @@ jobs:
       - name: 🔨 Build Project
         run: |
           npm install
-          npm run build
+          CI=false npm run build
           
-      - name: 📂 deploy in ftp server
+      - name: 📂 Deploy to the desired FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: ftp.smart-sfax.org
