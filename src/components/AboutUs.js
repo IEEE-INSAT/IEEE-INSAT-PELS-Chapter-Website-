@@ -118,7 +118,7 @@ export default class AboutUs extends Component {
                       <strong>the second PELS chapter </strong>in the IEEE
                       Tunisia section, however, we are the only active one, as
                       we are organising various activities since the beginning
-                      of the academic year 2020/2023, which include lectures,
+                      of the academic year 2022/2023, which include lectures,
                       workshops, projects, taking part in the organisation of
                       international conferences such as The International
                       Conference on Electrical Sciences and Technologies in
