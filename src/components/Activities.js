@@ -21,11 +21,7 @@ export default class Activities extends Component {
                     <span className="category"></span>
 
                     <p>
-                      By using a real-world project from the INSAT as an
-                      example, the energy conversion session helped students get
-                      a deeper grasp of the subject of solar panel systems.
-                      Additionally, the field of power electronics and its
-                      pertinent components were introduced.
+                    It was a great opportunity with our student branch to connect with our members. Furthermore We got to  introduce our IEEE INSAT and its activities to the student body.
                     </p>
                   </div>
                   <div className="col-lg-3">
